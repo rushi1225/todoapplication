@@ -1,0 +1,38 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+body{
+    background-color: aliceblue;
+}
+
+.head{
+    background-color: aquamarine;
+}
+.head h1{
+    text-align: center;
+    padding: 2vh;
+}
+
+.todos{
+    text-align: center;
+    padding: 8vh;
+    
+}
+.todos input, .todos button{
+    padding: 5px;
+}
+
+.todosbox{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.todosbox p, .todosbox button{
+    padding: 3px;
+}
