@@ -1,4 +1,4 @@
-
+/* 
 * {
     padding: 0;
     margin: 0;
@@ -35,4 +35,75 @@ body{
 }
 .todosbox p, .todosbox button{
     padding: 3px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* sir */
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: aliceblue;
+    padding: 2vh;
+}
+
+.add-todo-container {
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+    padding: 6vh 0;
+}
+
+.add-todo-container input {
+    width: 20vw;
+}
+
+.add-todo-container input,
+.add-todo-container button {
+    padding: 8px 12px;
+}
+
+.todos {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    align-items: center;
+}
+
+.todo {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
